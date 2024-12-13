@@ -2,7 +2,7 @@ name: self-hosted-demo
 on: 
   push:
     branches:
-      - master
+      - main
 jobs:
   testing-self-hosted-deployments:
     runs-on: ga-aws
